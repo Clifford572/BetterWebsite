@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3b4252;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+.burger {
+  padding: 3vmin;
+}
+.burger div {
+  height: 0.4vmin;
+  width: 3.4vmin;
+  background-color: white;
+  margin: 0.7vmin 1vmin;
+}
+.search input {
+  width: 60vmax;
+  padding: 1.3vmin;
+}
+.search img {
+  color: white;
+}

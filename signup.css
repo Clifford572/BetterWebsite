@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.sign-up-form {
+  text-align: center;
+  margin: 20vmin auto;
+  width: 50vmin;
+  height: 75vmin;
+  padding: 6vmin;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-up-form h1 {
+  color: #3b4252;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.sign-up-form p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.input-text {
+  padding: 1vmin 0;
+  /* padding-bottom: 1vmin; */
+  margin: 1vmin 0;
+  width: 100%;
+  height: 1vmin;
+  outline: none;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+select {
+  -webkit-appearance: none;
+  border: 1px solid grey;
+  width: 30%;
+  height: 35%;
+  padding: 4px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.7vmin 2vmin;
+}
+.has-text {
+  padding-top: 0;
+}
+.sign-up-form button {
+  color: white;
+  width: 60%;
+  cursor: pointer;
+  background-color: #3b4252;
+  border-radius: 1.5vmin;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 1.3vmin;
+  margin-top: 3vmin;
+  margin-bottom: 2vmin;
+  border: none;
+}
+.text-right {
+  display: flex;
+  flex-direction: row;
+  color: #808080;
+}
+a {
+  text-decoration: none;
+}
+.agree {
+  margin-right: 1.5vmin;
+}

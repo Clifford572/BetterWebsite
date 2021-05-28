@@ -1,0 +1,201 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #d8dee9; */
+  /* background-color: #eceff4; */
+  background-color: #e5e9f0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e3440;
+  position: sticky;
+  z-index: 1;
+  height: 9vmin;
+  top: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 4vmin;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 3vmin 0.25vmin;
+  color: #e5e9f0;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 40%;
+}
+.nav-links a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #e5e9f0;
+  font-size: 2vmin;
+}
+.burger {
+  display: none;
+}
+.burger div {
+  background-color: #e5e9f0;
+  width: 2vmax;
+  height: 0.2vmax;
+  margin-top: 5px;
+}
+section {
+  padding: 5vmax 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  margin: 3.5rem auto;
+}
+.container h2 {
+  font-size: 4vmax;
+  font-weight: 800;
+  margin-bottom: 3vmax;
+}
+.container p {
+  font-size: 2vmax;
+}
+.text {
+  color: #2e3440;
+  margin-left: 12vmin;
+}
+.job-text h2 {
+  max-width: 57%;
+}
+.text-right {
+  color: #2e3440;
+  margin-right: 12vmin;
+}
+/* img { */
+/*   display: block; */
+/*   height: auto; */
+/*   max-width: 100%; */
+/* } */
+.container img {
+  height: 30vmax;
+  width: 90vmax;
+}
+.container > * {
+  width: 100%;
+}
+.buttons {
+  margin: 3vmax 0;
+}
+.buttons button {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 0.65vmax;
+  font-weight: bold;
+  color: #e5e9f0;
+  font-size: 1.15vmax;
+  background-color: #3b4252;
+  width: 9vmax;
+  height: 3vmax;
+  margin-right: 1.85vmin;
+  cursor: pointer;
+}
+.dark-background {
+  background-color: #3b4252;
+  color: #e5e9f0;
+}
+.jobs-img img {
+  margin-left: 10vmax;
+  margin-bottom: 3vmax;
+  height: 25vmax;
+  width: 25vmax;
+}
+.money {
+  filter: drop-shadow(0 1px 2px black);
+}
+footer {
+  background-color: #2e3440;
+  color: #e5e9f0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7vmax;
+  font-size: 1.75vmax;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  list-style: none;
+}
+.contacts img {
+  height: 1.8vmax;
+  width: 1.9vmax;
+}
+@media screen and (max-width: 920px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    left: 0;
+    top: 9vmin;
+    height: 100vh;
+    width: 40%;
+    background-color: #2e3440;
+    flex-direction: column;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    width: 10%;
+  }
+  .logo {
+    width: 45%;
+  }
+  section {
+    padding: 3vmax 0;
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .container img {
+    height: 32vmin;
+    width: 57vmin;
+    margin-left: 10vmin;
+  }
+  .jobs-img img {
+    margin-top: 3vmax;
+    margin-left: 0;
+    margin-bottom: 2vmax;
+    height: 25vmax;
+    width: 25vmax;
+  }
+  .job-text h2 {
+    margin-left: 8vw;
+    max-width: 70%;
+  }
+  .text {
+    max-width: 70%;
+  }
+  .text-right {
+    max-width: 70%;
+    margin-left: 13vw;
+  }
+}
+
+.nav-clicked {
+  transform: translateX(0%);
+}
