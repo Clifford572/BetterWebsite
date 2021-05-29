@@ -102,7 +102,7 @@ section {
 .buttons button {
   font-family: "Montserrat", sans-serif;
   border: none;
-  border-radius: 0.5vmax;
+  border-radius: 0.4vmin;
   font-weight: bold;
   color: #e5e9f0;
   font-size: 1.15vmax;

@@ -71,7 +71,8 @@ h1 {
   font-family: "Montserrat", sans-serif;
   padding: 1.2vmin 1.7vmin;
   border: none;
-  border-radius: 0.5vmin;
+  border-radius: 0.4vmin;
+  cursor: pointer;
 }
 .container img {
   height: 40vmin;
