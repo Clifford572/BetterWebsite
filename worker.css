@@ -8,6 +8,12 @@ body {
   /* background-color: #eceff4; */
   background-color: #e5e9f0;
 }
+.dark-blue {
+  background-color: #3b4252;
+}
+.light-blue {
+  background-color: #5e81ac;
+}
 nav {
   display: flex;
   align-items: center;
@@ -96,11 +102,10 @@ section {
 .buttons button {
   font-family: "Montserrat", sans-serif;
   border: none;
-  border-radius: 0.65vmax;
+  border-radius: 0.5vmax;
   font-weight: bold;
   color: #e5e9f0;
   font-size: 1.15vmax;
-  background-color: #3b4252;
   width: 9vmax;
   height: 3vmax;
   margin-right: 1.85vmin;

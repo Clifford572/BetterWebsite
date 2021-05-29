@@ -5,8 +5,8 @@ body {
 .sign-up-form {
   text-align: center;
   margin: 27vmin auto;
-  width: 24vmin;
-  height: 35vmin;
+  width: 29vmin;
+  height: 39vmin;
   padding: 7vmin;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -18,6 +18,9 @@ body {
 .sign-up-form p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+}
+.sign-up-form a {
+  text-decoration: none;
 }
 .input {
   padding: 1vmin 0;

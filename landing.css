@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3b4252;
+  background-color: #2e3440;
   font-family: "Montserrat", sans-serif;
 }
 .logo {
@@ -68,6 +68,7 @@ h1 {
   color: #e5e9f0;
   font-weight: 600;
   font-size: 1.5vmin;
+  font-family: "Montserrat", sans-serif;
   padding: 1.2vmin 1.7vmin;
   border: none;
   border-radius: 0.5vmin;
