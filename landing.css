@@ -75,9 +75,8 @@ h1 {
   cursor: pointer;
 }
 .container img {
-  height: 40vmin;
-  width: 70vmin;
-  padding: 4vmin;
+  height: 45vmin;
+  width: 80vmin;
 }
 @media screen and (max-width: 1560px) {
   img {
