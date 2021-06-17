@@ -1,0 +1,70 @@
+body {
+  background-color: #e5e9f0;
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20vmin auto;
+  padding: 3vmin 3vmin;
+  height: 60vmin;
+  width: 55vmin;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  filter: drop-shadow(0 2px 4px #3b4252);
+}
+section h1 {
+  font-size: 3.5vmin;
+  margin-bottom: 4vmin;
+  color: #2e3440;
+}
+section img {
+  height: 20vmin;
+  margin-bottom: 8vmin;
+  filter: drop-shadow(0 2px 4px #3b4252);
+}
+.heart1 {
+  color: #5e81ac;
+  font-size: 48px;
+  margin: 0 0.3vmin;
+  cursor: pointer;
+}
+.heart2 {
+  color: #5e81ac;
+  font-size: 48px;
+  margin: 0 0.3vmin;
+  cursor: pointer;
+}
+.heart3 {
+  color: #5e81ac;
+  font-size: 48px;
+  margin: 0 0.3vmin;
+  cursor: pointer;
+}
+.heart4 {
+  color: #5e81ac;
+  font-size: 48px;
+  margin: 0 0.3vmin;
+  cursor: pointer;
+}
+.heart5 {
+  color: #5e81ac;
+  font-size: 48px;
+  margin: 0 0.3vmin;
+  cursor: pointer;
+}
+section button {
+  margin-top: auto;
+  margin-bottom: 4vmin;
+  background-color: #2e3440;
+  color: white;
+  font-size: 1.7vmin;
+  font-weight: 900;
+  border-radius: 0.5vmin;
+  padding: 1.5vmin 9vmin;
+  border: none;
+  cursor: pointer;
+}
+.rate {
+  color: #bf616a;
+}

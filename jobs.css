@@ -114,6 +114,20 @@ nav {
   top: 0;
   z-index: 1;
 }
+select {
+  border: none;
+  background-color: #d8dee9;
+  -webkit-appearance: none;
+}
+.filter {
+  float: right;
+  display: flex;
+  padding: 2vmin;
+  gap: 2vmin;
+}
+.filter img {
+  height: 3vmin;
+}
 .burger {
   padding: 3vmin;
   width: 10%;
@@ -132,18 +146,19 @@ nav {
   height: 5vmin;
   background-color: white;
   justify-content: space-around;
+  align-items: center;
+}
+.search img {
+  height: 3vmin;
 }
 .search input {
   border: none;
   outline: none;
   width: 80%;
 }
-.search a {
-  height: 5vmin;
-}
 .search i {
-  margin: 1.3vmin;
   color: #3b4252;
+  margin-right: 2vmin;
 }
 .details {
   position: absolute;
