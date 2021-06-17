@@ -1,8 +1,5 @@
-const navSlide = () => {
-  const burger = document.querySelector(".burger");
-  const nav = document.querySelector(".nav-links");
-  burger.addEventListener("click", () => {
-    nav.classList.toggle("nav-clicked");
+$(document).ready(function () {
+  $(".burger").click(function () {
+    $(".nav-links").toggleClass("nav-clicked");
   });
-};
-navSlide();
+});

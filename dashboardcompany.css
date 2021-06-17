@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #2e3440;
+  position: sticky;
+  z-index: 1;
+  height: 9vmin;
+  top: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav h2 {
+  font-size: 4vmin;
+  font-weight: 900;
+  margin: 2vmin 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #e5e9f0; */
+  background-color: #d8dee9;
+  color: #2e3440;
+}
+section {
+  padding: 3vmin 3vmin;
+  margin: 3vmin auto;
+  width: 95vmin;
+  background-color: white;
+  border-radius: 0.5vmin;
+}
+.title {
+  display: flex;
+  padding: 0 3vmin;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vmin;
+}
+.rating i {
+  color: #bf616a;
+}
+.applicants {
+  margin: 8vmin 0;
+}
+.person {
+  padding: 3vmin 3vmin;
+  margin-top: 3vmin;
+  background-color: #d8dee9;
+  border-radius: 0.5vmin;
+  filter: drop-shadow(0 2px 4px #3b4252);
+  display: flex;
+}
+.person h3 {
+  margin-bottom: 3vmin;
+}
+.pp img {
+  height: 13vmin;
+  border-radius: 100%;
+  margin-right: 4vmin;
+  filter: drop-shadow(0 2px 4px #3b4252);
+}
+.buttons {
+  margin-top: auto;
+  margin-left: auto;
+}
+.buttons button {
+  background-color: #2e3440;
+  color: white;
+  border-radius: 0.5vmin;
+  border: none;
+  padding: 1vmin 1.5vmin;
+  font-weight: bold;
+  margin-left: 1vmin;
+  cursor: pointer;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5vmin;
+  gap: 2vmin;
+}
+.time img {
+  height: 3vmin;
+}
+.options {
+  background-color: #d8dee9;
+  color: #2e3440;
+  height: 25vmin;
+  margin: 5vmin auto;
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  padding-bottom: 3vmin;
+  width: 99%;
+  padding-top: 3vmin;
+  border-radius: 1vmin;
+  font-size: 1.1vmin;
+  display: flex;
+  gap: 3vmin;
+  align-items: center;
+  filter: drop-shadow(0 2px 4px #3b4252);
+}
+.options h2 {
+  font-size: 2em;
+  margin-bottom: 2vmin;
+}
+.options h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 2vmin;
+}
+.options img {
+  height: 4vmin;
+}
+.heart {
+  margin-top: 3vmin;
+  font-size: 3vmax;
+  color: #bf616a;
+}
+.deets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jobdetails {
+  margin-top: 2vmin;
+  margin-left: 2vmin;
+  background-color: #2e3440;
+  color: #e5e9f0;
+  font-weight: 600;
+  font-size: 1.4vmin;
+  padding: 1.2vmin 1.7vmin;
+  width: 20%;
+  float: right;
+  border: none;
+  border-radius: 0.4vmin;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.circle {
+  background-color: #d8dee9;
+  border-radius: 100%;
+  padding: 3vmin 3vmin;
+  margin-left: auto;
+  filter: drop-shadow(0 2px 4px #3b4252);
+}
+.circle img {
+  height: 6vmin;
+}
+.jobs-postings {
+  margin: 5vmin 0;
+}
+.employees {
+  margin: 4vmin 0;
+}

@@ -8,7 +8,19 @@ body {
   /* background-color: #eceff4; */
   background-color: #e5e9f0;
 }
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+}
 .dark-blue {
+  background-color: #2e3440;
+}
+.blue {
   background-color: #3b4252;
 }
 .light-blue {
@@ -24,11 +36,13 @@ nav {
   height: 9vmin;
   top: 0;
 }
+nav a {
+  text-decoration: none;
+}
 .logo {
   display: flex;
   align-items: center;
   font-size: 4vmin;
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   padding: 3vmin 0.25vmin;
   color: #e5e9f0;
@@ -38,11 +52,10 @@ nav {
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  width: 40%;
+  width: 30%;
 }
 .nav-links a {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #e5e9f0;
   font-size: 2vmin;
@@ -55,6 +68,77 @@ nav {
   width: 2vmax;
   height: 0.2vmax;
   margin-top: 5px;
+}
+section {
+  padding: 3vmax 3vmax;
+}
+.opening {
+  display: flex;
+  flex-direction: column;
+  padding: 10vmax 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vmax;
+  color: #2e3440;
+}
+.opening p {
+  padding: 3vmax 0;
+  width: 50%;
+}
+button {
+  color: #e5e9f0;
+  font-weight: 600;
+  font-size: 1.9vmax;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3b4252;
+  padding: 1.8vmax 3vmax;
+  border: none;
+  border-radius: 0.4vmin;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 6vmax 4vmax;
+  gap: 6vmax;
+}
+.content > * {
+  width: 100%;
+}
+.item {
+  background-color: #e5e9f0;
+  border-radius: 1vmax;
+  padding: 3vmax;
+}
+.item h2 {
+  font-size: 1.8vmax;
+  margin-bottom: 1vmax;
+}
+.item p {
+  font-size: 1.4vmax;
+}
+footer {
+  background-color: #2e3440;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 4vmin 8vmax;
+  height: 19vmin;
+  color: #e5e9f0;
+}
+.contacts p {
+  margin-top: 1.5vmin;
+}
+.followus {
+  align-items: center;
+  text-align: center;
+}
+.followus img {
+  height: 2.5vmin;
+  width: 2.5vmin;
+  margin: 3vmin 2vmin;
 }
 @media screen and (max-width: 920px) {
   body {
@@ -78,6 +162,12 @@ nav {
   }
   .logo {
     width: 45%;
+  }
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vmax 3vmax;
   }
 }
 .nav-clicked {

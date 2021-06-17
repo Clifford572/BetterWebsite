@@ -24,6 +24,9 @@ nav {
   height: 9vmin;
   top: 0;
 }
+nav a {
+  text-decoration: none;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -131,6 +134,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 7vmax;
+  margin-top: auto;
   font-size: 1.75vmax;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;

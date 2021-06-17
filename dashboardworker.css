@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e9f0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e3440;
+  padding: 0 5vmin;
+  position: sticky;
+  z-index: 1;
+  height: 9vmin;
+  top: 0;
+}
+nav h2 {
+  color: #e5e9f0;
+  font-weight: 800;
+  font-size: 3.4vmin;
+}
+nav p {
+  color: #e5e9f0;
+  font-weight: 700;
+}
+.account {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  background-color: white;
+  border-radius: 100%;
+  height: 13vmin;
+  width: 13vmin;
+  padding: 0.3vmin;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  filter: drop-shadow(0 2px 4px grey);
+}
+.user img {
+  margin-top: 2vmin;
+  height: 7vmin;
+  width: 7vmin;
+}
+.burger {
+  padding: 3vmin;
+  width: 10%;
+  cursor: pointer;
+}
+.burger div {
+  height: 0.35vmin;
+  width: 3vmin;
+  background-color: #d8dee9;
+  margin: 0.7vmin 1vmin;
+}
+.details {
+  position: absolute;
+  left: 0;
+  top: 9vmin;
+  height: 100vh;
+  width: 300px;
+  background-color: #2e3440;
+  /* background-color: #3b4252; */
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+.details p {
+  font-size: 2.5vmin;
+  font-weight: bold;
+  color: #d8dee9;
+  margin-left: 85px;
+}
+.user-icon {
+  height: 15vmin;
+  width: 15vmin;
+  background-color: white;
+  border-radius: 10vmin;
+  margin-top: 4vmin;
+  text-align: center;
+  margin-bottom: 5vmin;
+  margin-left: 75px;
+}
+.user-icon img {
+  margin-top: 3.5vmin;
+  height: 7.5vmin;
+  width: 7.5vmin;
+}
+.list ul {
+  list-style: none;
+  margin: 3vmin 0;
+}
+.list li {
+  margin-top: 10vmin;
+}
+nav a {
+  text-decoration: none;
+  font-size: 2vmin;
+  font-weight: bold;
+  margin-left: 50px;
+  color: #d8dee9;
+}
+.logout {
+  margin-top: 280px;
+  display: flex;
+  gap: 2vmin;
+}
+.logout img {
+  height: 3vmin;
+  width: 3vmin;
+}
+.details-clicked {
+  transform: translateX(0%);
+}
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 5vmin 5vmin;
+  justify-content: space-between;
+  margin: 3vmin auto;
+  width: 90vmin;
+  background-color: white;
+  border-radius: 1.5%;
+}
+section i {
+  margin-top: 2vmin;
+  color: #bf616a;
+}
+.profile h2 {
+  font-size: 2.8vmin;
+}
+.profile h3 {
+  font-size: 2vmin;
+}
+.profile i {
+  font-size: 2.8vmin;
+}
+.info {
+  margin: 2vmin 0;
+}
+.job-postings h2 {
+  font-size: 2.8vmin;
+  margin-bottom: 5vmin;
+}
+.options {
+  height: 30vmin;
+  margin: 3vmin 3vmin;
+  padding: 3vmin 3vmin;
+  width: 90%;
+  background-color: #eceff4;
+  border-radius: 1vmin;
+  font-size: 1.1vmin;
+  display: flex;
+  gap: 3vmin;
+  align-items: center;
+  filter: drop-shadow(0 2px 4px grey);
+}
+.options {
+  height: 30vmin;
+  margin: 3vmin 3vmin;
+  padding: 3vmin 3vmin;
+  background-color: #eceff4;
+  border-radius: 1vmin;
+  font-size: 1.1vmin;
+  display: flex;
+  gap: 3vmin;
+  align-items: center;
+  filter: drop-shadow(0 2px 4px grey);
+}
+.options h2 {
+  margin-bottom: 1.5vmin;
+  font-size: 2em;
+  color: #2e3440;
+}
+.options h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 2vmin;
+  color: #2e3440;
+}
+.options p {
+  color: #2e3440;
+}
+.options img {
+  height: 3vmin;
+}
+.options i {
+  margin-top: 3vmin;
+  color: #bf616a;
+}
+.deets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.options button {
+  margin-top: 2vmin;
+  background-color: #2e3440;
+  color: #e5e9f0;
+  font-weight: 600;
+  font-size: 1vmin;
+  padding: 1.2vmin 1.7vmin;
+  width: 20%;
+  float: right;
+  border: none;
+  border-radius: 0.4vmin;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #5e81ac;
+  /* transition: ; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row a {
+  text-decoration: none;
+}
+.currentjob {
+  margin: 5vmin 0;
+  padding: 3vmin 3vmin;
+  background-color: #d8dee9;
+  display: flex;
+  align-items: center;
+  height: 25vmin;
+  width: 80vmin;
+  border-radius: 0.5vmin;
+  gap: 5vmin;
+  filter: drop-shadow(0 2px 4px grey);
+}
+.currentjob img {
+  height: 4vmin;
+}
+.content h2 {
+  margin-bottom: 2vmin;
+}
+.content p {
+  margin-bottom: 1vmin;
+}
+.currentjob button {
+  margin-top: auto;
+  margin-left: auto;
+  background-color: #2e3440;
+  color: white;
+  font-weight: bold;
+  padding: 1vmin 2.5vmin;
+  border: none;
+  border-radius: 0.5vmin;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

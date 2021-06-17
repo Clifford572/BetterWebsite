@@ -8,7 +8,7 @@ body {
   text-align: center;
   margin: 20vmin auto;
   width: 50vmin;
-  height: 75vmin;
+  height: 55vmin;
   padding: 6vmin;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
@@ -16,6 +16,7 @@ body {
 .sign-up-form h1 {
   color: #3b4252;
   font-size: 30px;
+  margin-bottom: 5vmin;
 }
 .sign-up-form p {
   font-size: 14px;
@@ -23,8 +24,8 @@ body {
 .input-text {
   padding: 1vmin 0;
   /* padding-bottom: 1vmin; */
-  margin: 1vmin 0;
-  width: 100%;
+  margin-bottom: 3vmin;
+  width: 90%;
   height: 1vmin;
   outline: none;
   border-top: 0;
@@ -52,7 +53,7 @@ select {
   border-radius: 1.5vmin;
   font-weight: 600;
   padding: 1.3vmin;
-  margin-top: 3vmin;
+  margin-top: 8vmin;
   margin-bottom: 2vmin;
   border: none;
 }
@@ -89,4 +90,6 @@ a {
   background-color: #3b4252;
   border-radius: 0.5vmin;
   color: white;
+  margin-left: auto;
+  cursor: pointer;
 }

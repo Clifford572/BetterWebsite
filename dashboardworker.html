@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="dashboardworker.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <h2>Dashboard</h2>
+      <div class="account">
+      </div>
+      <div class="details">
+        <div class="user-icon">
+          <img src=" Icons/User.png" alt="" />
+        </div>
+        <p>John Doe</p>
+        <div class="list">
+          <ul>
+            <li><a href="dashboardworker.html">Dashboard</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+          </ul>
+        </div>
+        <div class="logout">
+          <a href="worker.html">Log Out</a>
+          <img src="Icons/LogOut.png" alt="" />
+        </div>
+    </nav>
+    <section>
+        <div class="profile">
+        <h2>John Doe</h2>
+        <div class="info">
+            <h3>Average Rating</h3>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+        </div>
+        </div>
+        <div class="user">
+          <img src="Icons/User.png" alt="" />
+        </div>
+    </section>
+    <section>
+      <div class="job-postings">
+          <h2>Saved Jobs</h2>
+      <div class="options">
+        <div>
+          <img src="Icons/Intel.png" alt="" />
+        </div>
+        <div>
+          <h2>Systems Administrator</h2>
+          <h3>Intel</h3>
+          <div class="deets">
+            <h3>Jakarta, Indonesia</h3>
+            <h3>5 - 6 Years</h3>
+            <h3>Rp 30.000.000 - 45.000.000</h3>
+          </div>
+          <p>
+            Lorem harum quae voluptates quibusdam aliquam? Ut sequi in iure illo
+            delectus Accusamus natus perspiciatis doloremque ratione quos
+            Commodi at alias ipsam quae delectus incidunt Ad repellendus iure
+            minima nobis.
+          </p>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <button onclick="window.location.href='jobdetails.html'">
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="options">
+        <div>
+          <img src="Icons/Playstation.png" alt="" />
+        </div>
+        <div>
+          <h2>Game Developer</h2>
+          <h3>Playstaion</h3>
+          <div class="deets">
+            <h3>Surabaya, Indonesia</h3>
+            <h3>3 - 4 Years</h3>
+            <h3>Rp 15.000.000 - 20.000.000</h3>
+          </div>
+          <p>
+            Lorem harum quae voluptates quibusdam aliquam? Ut sequi in iure illo
+            delectus Accusamus natus perspiciatis doloremque ratione quos
+            Commodi at alias ipsam quae delectus incidunt Ad repellendus iure
+            minima nobis.
+          </p>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <i class="material-icons">favorite</i>
+          <button onclick="window.location.href='jobdetails.html'">
+            Details
+          </button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div class="job-postings">
+        <h2>Upcoming Interviews</h2>
+        <div class="row">
+            <a href="https://zoom.us/">
+        <div class="options">
+        <div>
+          <img src="Icons/Grab.png" alt="" />
+        </div>
+        <div>
+          <h2>UI / UX Designer</h2>
+          <h3>Grab</h3>
+          <div class="deets">
+              <img src="Icons/Calendar.png" alt="">
+              <div>
+              <h3>July 19th 2021</h3>
+              <h3>09:00 AM</h3>
+              </div>
+          </div>
+        </div>
+      </div>
+      </a>
+            <a href="https://zoom.us/">
+        <div class="options">
+        <div>
+          <img src="Icons/Tokopedia.png" alt="" />
+        </div>
+        <div>
+          <h2>Data Scientist</h2>
+          <h3>Tokopedia</h3>
+          <div class="deets">
+              <img src="Icons/Calendar.png" alt="">
+              <div>
+              <h3>July 14th 2021</h3>
+              <h3>11:00 AM</h3>
+              </div>
+          </div>
+        </div>
+      </div>
+            </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="column">
+            <h2>Current Jobs</h2>
+        <div class="currentjob">
+            <img src="Icons/McDonalds.png" alt=""/>
+            <div class="content">
+            <h2>Janitor</h2>
+            <p>McDonalds</p>
+            <p>Work Hours : 19:00 - 08:00</p>
+            </div>
+            <button onclick="window.location.href='ratecompany.html'">Finish</button>
+        </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jobs.js" async></script>
+  </body>
+</html>

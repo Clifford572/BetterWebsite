@@ -11,18 +11,17 @@
     <title>Jobst</title>
   </head>
   <body>
-    <script src="worker.js" async></script>
     <nav>
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
-      <h2 class="logo">Jobst</h2>
+      <a href="landing.html"> <h2 class="logo">Jobst</h2></a>
       <ul class="nav-links">
-        <li><a href="jobs.html">Jobs</a></li>
-        <li><a href="#">Salaries</a></li>
-        <li><a href="#">Companies</a></li>
+        <li><a href="#jobs" class="joblink">Jobs</a></li>
+        <li><a href="#salaries" class="salarylink">Salaries</a></li>
+        <li><a href="#companies" class="companylink">Companies</a></li>
       </ul>
     </nav>
     <section>
@@ -53,7 +52,7 @@
         <img src="Icons/OfficeLady.png" alt="" />
       </div>
     </section>
-    <section class="dark-background">
+    <section class="dark-background" id="jobs">
       <div class="container">
         <div class="text dark-background job-text">
           <h2>Find the Job for you</h2>
@@ -69,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="salaries">
       <div class="container">
         <div class="jobs-img money">
           <img src="Icons/Money.png" alt="" />
@@ -85,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="dark-background">
+    <section class="dark-background" id="companies">
       <div class="container">
         <div class="text dark-background">
           <h2>Discover Companies</h2>
@@ -115,5 +114,7 @@
         </li>
       </ul>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="worker.js"></script>
   </body>
 </html>
