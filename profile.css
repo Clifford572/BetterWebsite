@@ -24,36 +24,6 @@ section img {
   margin-bottom: 8vmin;
   filter: drop-shadow(0 2px 4px #3b4252);
 }
-.heart1 {
-  color: #5e81ac;
-  font-size: 48px;
-  margin: 0 0.3vmin;
-  cursor: pointer;
-}
-.heart2 {
-  color: #5e81ac;
-  font-size: 48px;
-  margin: 0 0.3vmin;
-  cursor: pointer;
-}
-.heart3 {
-  color: #5e81ac;
-  font-size: 48px;
-  margin: 0 0.3vmin;
-  cursor: pointer;
-}
-.heart4 {
-  color: #5e81ac;
-  font-size: 48px;
-  margin: 0 0.3vmin;
-  cursor: pointer;
-}
-.heart5 {
-  color: #5e81ac;
-  font-size: 48px;
-  margin: 0 0.3vmin;
-  cursor: pointer;
-}
 section button {
   margin-top: auto;
   margin-bottom: 4vmin;
@@ -73,4 +43,8 @@ section button {
   width: 90%;
   margin: 4vmin 0;
   resize: none;
+}
+section i {
+  margin-top: 2vmin;
+  color: #bf616a;
 }
